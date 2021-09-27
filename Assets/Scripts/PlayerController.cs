@@ -34,7 +34,7 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    // abstraction concept
+    // ABSTRACTION
     void Jump()
     {        
             playerRB.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
